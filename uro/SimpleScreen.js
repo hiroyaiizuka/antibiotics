@@ -110,7 +110,7 @@ static navigationOptions = ({navigation}) =>{
                 <Text　style ={{paddingTop: 8, fontSize:13}}> 起因菌の感受性を確認するとともに、膿瘍の合併を考える</Text>
                 <Text style={{fontWeight: 'bold', fontSize:15,textDecorationLine: 'underline', marginTop:20}}>2.  ESBL産生菌を疑うとき</Text>
                 <Text　style ={{paddingTop: 8, fontSize:13}}> 軽症例では、セフメタゾール{"\n"} 重症例では、カルバペネム系で治療する</Text>
-                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:50, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:47, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
                 <Text　style = {{fontSize: 8, textAlign:'right',position: 'relative', top:50, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
         </View>  

@@ -95,7 +95,7 @@ class SevereHAPScreen extends React.Component{
                         onPress={()=> this.setState({checked7: !this.state.checked7})}/>
                     <Text style = {styles.resultqsofa}> ２項目以上で、敗血症疑い </Text>
                    
-                    <Text style = {styles.resultall}> I-ROAD ≧ １項目   or   q-SOFA ≧ ２項目{"\n"}{"\n"}➡︎   重症 </Text>
+                    <Text style = {styles.resultall}> I-ROAD ≧１項目   or   q-SOFA ≧２項目{"\n"}{"\n"}➡︎   重症 </Text>
                  
              
                     
@@ -239,7 +239,7 @@ class SevereHAPScreen extends React.Component{
         fontWeight:'bold',
         marginTop: 60,
         height: 60,
-        width: 250,
+        width: 260,
         shadowColor: '#000',
         shadowOffset: {width: 0, height: 0.5},
         shadowOpacity: 0.2,

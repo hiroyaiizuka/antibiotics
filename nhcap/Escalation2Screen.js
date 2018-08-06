@@ -30,7 +30,7 @@ static navigationOptions = ({navigation}) =>{
             
             <View style = {styles.guidline } >
                 <Text style={{fontWeight: 'bold', paddingBottom: 4, color: 'rgb(255,255,255)',}} >内服薬(外来治療が可能な場合):</Text> 
-                <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}>βラクタマーゼ阻害配合ペニシリン系 + マクロライド系薬{"\n"}レスピラトリーキノロン(結核をマスク！)</Text>
+                <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}>βラクタマーゼ阻害配合ペニシリン系 + マクロライド系{"\n"}レスピラトリーキノロン(結核をマスク！)</Text>
                 <Text style={{fontWeight: 'bold', paddingTop: 20, paddingBottom: 4, color: 'rgb(255,255,255)',}}>注射薬:</Text>
                 <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}>スルバクタム･アンピシリン{"\n"}セフトリアキソン (嫌気性菌感染疑いには、使用しない)</Text>
                 <Text style={{fontWeight: 'bold', paddingTop: 20, paddingBottom: 4, color: 'rgb(255,255,255)',}}>非定型肺炎が疑われる場合:</Text>
@@ -44,8 +44,8 @@ static navigationOptions = ({navigation}) =>{
                 <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4, fontSize:13}}>オーグメンチン 375mg + サワシリン 250mg  1日3回{"\n"}(± ジスロマック 2000mg 1回)</Text>
                 <Text style={{fontWeight: 'bold', marginTop: 10, color: 'rgb(255,255,255)'}}>注射:</Text>
                 <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4, fontSize:13}}>ロセフィン 2g/日  or  ユナシン 1.5-3g  6時間毎 </Text>
-                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:40, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
-                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:40, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
+                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:34, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:36, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
 
 
@@ -74,8 +74,8 @@ static navigationOptions = ({navigation}) =>{
                 <Text style ={{ color: 'rgb(255,255,255)', paddingTop:15,fontSize:13}}>ゾシン 4.5g  6時間毎</Text>
                 <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4,fontSize:13}}>マキシピーム 2g  6時間毎  (嫌気性菌感染には × )</Text>
                 <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4,fontSize:13}}>メロペン 1g  8時間毎</Text>
-                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:42, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
-                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:42, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
+                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:36, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:38, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
 
          </View>
@@ -92,7 +92,7 @@ static navigationOptions = ({navigation}) =>{
                 <Text style={{fontWeight: 'bold', paddingBottom: 10, paddingTop: 2, color: 'rgb(255,255,255)',}}>注射薬(2剤併用投与):</Text>
                 <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1,fontSize:13}}>タゾバクタム・ピペラシン</Text>
                 <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1,fontSize:13}}>カルバペネム系</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1,fontSize:13}}>第4世代セフェム系薬  (嫌気性菌感染疑いには、使用しない)</Text>
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1,fontSize:13}}>第4世代セフェム系薬  (嫌気性菌感染疑いは使用しない)</Text>
              
                 <Text style = {{color: 'rgb(255,255,255)', paddingLeft: 50, paddingTop:5, paddingBottom: 5, fontWeight: 'bold'}}>+</Text>
                 <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1,fontSize:13}}>アミノグリコシド系薬</Text>
@@ -107,8 +107,8 @@ static navigationOptions = ({navigation}) =>{
                 <Text style ={{ color: 'rgb(255,255,255)', paddingTop:17,fontSize:13}}>ゾシン 4.5g  6時間毎</Text>
                 <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4,fontSize:13}}> + クラビット500mg/日 or  ゲンタシン 5mg/kg/日</Text>
                 <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4,fontSize:13}}>(± バンコマイシン 1g  12時間毎)</Text>
-                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:40, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
-                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:40, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
+                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:35, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:37, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
         </View>  
 

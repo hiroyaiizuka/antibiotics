@@ -36,8 +36,8 @@ static navigationOptions = ({navigation}) =>{
                 <Text style={{ paddingBottom: 4,paddingTop:16,fontSize:13}} >･グラム染色による、抗菌薬選択が望ましい</Text> 
                 <Text style={{ paddingTop:8,fontSize:13}} >･黄色ブドウ球菌が検出された場合</Text> 
                 <Text style={{ fontSize:13}} >  感染性心内膜炎などの血流感染や、腎･前立腺膿瘍を疑う</Text>
-                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:20, right:-6}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
-                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:20, right:-6}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:17, right:-6}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:17, right:-6}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
 
             <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:18, top:0, marginBottom: 5}}>治療の基本)</Text>
@@ -66,7 +66,7 @@ static navigationOptions = ({navigation}) =>{
                 <View style = {styles.guidline2} >
                     <Text style={{fontWeight: 'bold', paddingBottom: 2}}>内服薬: </Text>
                     <Text>バクタ 2錠　　　　　  1日2回　7-14日間</Text>
-                    <Text  style ={{fontSize: 12, paddingTop:2}}>オーグメンチン 375mg + サワシリン 250mg  1日3回  14日間</Text>
+                    <Text  style ={{fontSize: 12, paddingTop:2}}>オーグメンチン375mg + サワシリン250mg  1日3回  14日間</Text>
                  
                     <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:17, right:-10}}> JAID/JSC感染症治療ガイドライン2015</Text>
                   
@@ -87,8 +87,8 @@ static navigationOptions = ({navigation}) =>{
                     <Text　style ={{paddingTop: 20, fontSize:13, fontWeight: 'bold' }}>グラム染色で、グラム陽性球菌(+):</Text>
                     <Text　style ={{paddingTop: 2, fontSize:13}}>Enterococcus  facium を考慮し</Text>
                     <Text　style ={{fontSize:13}}>バンコマイシン 1g 12時間毎　を追加する</Text>
-                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:14, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
-                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:14, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
+                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:16, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:16, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
                 </View>
             </View>
     
