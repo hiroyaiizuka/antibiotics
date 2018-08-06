@@ -40,16 +40,16 @@ static navigationOptions = ({navigation}) =>{
                 <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:20, right:-6}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
 
-            <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:10, top:0, marginBottom: 5}}>治療の基本)</Text>
+            <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:18, top:0, marginBottom: 5}}>治療の基本)</Text>
             <View style = {styles.example}>
                 <Text style={{fontWeight: 'bold',paddingTop: 8}}>1.   無症候性細菌尿は、治療対象にならない</Text>
-                <Text style={{paddingTop: 2, fontSize: 12}}>     (例外、妊婦、侵襲性の泌尿器科処置、好中球減少時など)</Text>
+                <Text style={{paddingTop: 2, fontSize: 12}}>      (例外、妊婦、侵襲性の泌尿器科処置、好中球減少時など)</Text>
                 <Text style={{fontWeight: 'bold', paddingTop: 18}}>2.   男性の場合は、直腸診を行う</Text>
-                <Text style={{paddingTop: 2, fontSize: 12}}>      前立腺腫大、圧痛や熱感を確認</Text>
+                <Text style={{paddingTop: 2, fontSize: 12}}>       前立腺腫大、圧痛や熱感を確認</Text>
                 <Text style={{fontWeight: 'bold',paddingTop: 18}}>3.   治療期間:  膀胱炎、腎盂腎炎 7-14日間</Text>
                 <Text style={{paddingTop: 2, fontSize: 12}}>       再発例や泌尿器科的異常がある場合、6週間</Text>
-                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:12, right:8}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
-                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:12, right:8}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:32, right:8}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:32, right:8}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
 
 
@@ -62,7 +62,7 @@ static navigationOptions = ({navigation}) =>{
                      flex: 1,
                 }}>
                 <Text　style ={styles.esc2}>膀胱炎、急性腎盂腎炎</Text>
-                <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:10, top:10, marginBottom: 0}}>膀胱炎)</Text>
+                <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:18, top:10, marginTop: 20}}>膀胱炎)</Text>
                 <View style = {styles.guidline2} >
                     <Text style={{fontWeight: 'bold', paddingBottom: 2}}>内服薬: </Text>
                     <Text>バクタ 2錠　　　　　  1日2回　7-14日間</Text>
@@ -73,7 +73,7 @@ static navigationOptions = ({navigation}) =>{
       
                 </View>  
                  
-                <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:10, top:0, marginBottom: 5}}>腎盂腎炎)</Text>
+                <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:18, top:0, marginBottom: 5}}>腎盂腎炎)</Text>
                 <View style = {styles.example}>
                     <Text style={{fontWeight: 'bold',}}>軽症: </Text>
                     <Text >セフメタゾール2g　12時間毎</Text>
@@ -87,8 +87,8 @@ static navigationOptions = ({navigation}) =>{
                     <Text　style ={{paddingTop: 20, fontSize:13, fontWeight: 'bold' }}>グラム染色で、グラム陽性球菌(+):</Text>
                     <Text　style ={{paddingTop: 2, fontSize:13}}>Enterococcus  facium を考慮し</Text>
                     <Text　style ={{fontSize:13}}>バンコマイシン 1g 12時間毎　を追加する</Text>
-                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:4, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
-                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:4, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
+                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:14, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:14, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
                 </View>
             </View>
     
@@ -114,14 +114,14 @@ static navigationOptions = ({navigation}) =>{
                 <Text style ={{fontSize:13}}>アンピシリン 2g 4-6時間毎　上記治療に追加{"\n"}(培養結果によっては、バンコマイシンに)</Text>
                 <Text style = {{fontSize: 8, textAlign:'right', position: 'relative', top:8, left:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text> 
             </View>
-            <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:10, top:0, marginBottom: 5}}>ポイント)</Text>
+            <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:18, top:0, marginBottom: 5}}>ポイント)</Text>
             <View style = {styles.example}>
-                <Text style={{fontWeight: 'bold', fontSize:15,textDecorationLine: 'underline', marginTop:10}}>1. 前立腺に移行性の良い抗菌薬</Text>
+                <Text style={{fontWeight: 'bold', fontSize:15,textDecorationLine: 'underline', marginTop:10}}>1.   前立腺に移行性の良い抗菌薬</Text>
                 <Text　style ={{paddingTop: 8, fontSize:13}}> ST合剤、ニューキノロン系は前立腺への移行性が良い。{"\n"} 急性の場合、激しい炎症のため、βラクタム系も有効。</Text>
-                <Text style={{fontWeight: 'bold', fontSize:15,textDecorationLine: 'underline', marginTop:20}}> 2. 治療期間：3週間以上 (3-6週間)</Text>
-                <Text　style ={{paddingTop: 8, fontSize:13}}>十分な治療にもかかわらず感染を除去できなかったり{"\n"}膿瘍を形成したりすることがある</Text>
-                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:20, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
-                <Text　style = {{fontSize: 8, textAlign:'right',position: 'relative', top:20, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
+                <Text style={{fontWeight: 'bold', fontSize:15,textDecorationLine: 'underline', marginTop:20}}>2.  治療期間：3週間以上 (3-6週間)</Text>
+                <Text　style ={{paddingTop: 8, fontSize:13}}> 十分な治療にもかかわらず感染を除去できなかったり{"\n"} 膿瘍を形成したりすることがある</Text>
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:40, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8, textAlign:'right',position: 'relative', top:40, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
         </View>  
 
@@ -198,8 +198,9 @@ const styles = StyleSheet.create({
         backgroundColor : '#b0e0e6',
         height: 320,
         width: 374,
-        paddingLeft:13,
-        paddingTop:20
+        paddingLeft:19,
+        paddingTop:20,
+        alignSelf: 'center',
     },
     
 });

@@ -17,7 +17,7 @@ class DifferentScreen extends React.Component{
             <View style ={styles.judge}> 
                 <Text style ={styles.judgetext} >単純性尿路感染症</Text>
             </View>
-            <Image style ={{ width:300, height:180, position: 'relative',top:10, left: 0}} source = {require('./image/AdobeStock_162240635.jpeg')}/>
+            <Image style ={{ width:300, height:180,  marginLeft: 'auto', marginRight: 'auto', position: 'relative',top:10, left: 5}} source = {require('./image/AdobeStock_162240635.jpeg')}/>
 
             <TouchableOpacity style={styles. simp}
                 onPress = {() =>{ this.props.navigation.navigate('Simple')}}> 
@@ -31,15 +31,15 @@ class DifferentScreen extends React.Component{
                  <Text style ={styles.judgetext} >複雑性尿路感染症</Text>
             </TouchableOpacity>
 
-            <View style = {{flexDirection: 'row', paddingBottom: 10 }}>
+            <View style = {{flexDirection: 'row', paddingBottom: 10,  marginLeft: 'auto', marginRight: 'auto'}}>
               <Image style ={{ width:110, height:140, position: 'relative',top:10, right: 5}} source = {require('./image/AdobeStock_45974064.jpeg')}/>
            　 <Image style ={{ width:110, height:140, position: 'relative',top:10, left:0}} source = {require('./image/AdobeStock_121777785.jpeg')}/>
               <Image style ={{ width:110, height:140, position: 'relative',top:10, left: 5}} source = {require('./image/AdobeStock_176741195.jpeg')}/>
             </View> 
-            <View style = {{flexDirection: 'row'}}>
+            <View style = {{flexDirection: 'row',  marginLeft: 'auto', marginRight: 'auto'}}>
             <Image style ={{ width:110, height:140, position: 'relative',top:10, right: 5}} source = {require('./image/AdobeStock_138909907.jpeg')}/>
             <Image style ={{ width:110, height:140, position: 'relative',top:10, left: 0}} source = {require('./image/AdobeStock_138952310.jpeg')}/>  
-            <Image style ={{ width:166, height:140, position: 'relative',top:10, left: 5}} source = {require('./image/AdobeStock_142612067.jpeg')}/>
+            <Image style ={{ width:110, height:140, position: 'relative',top:10,  left: 5}} source = {require('./image/anomaly2.jpeg')}/>
             </View>
            
             <TouchableOpacity style={styles. comp}
