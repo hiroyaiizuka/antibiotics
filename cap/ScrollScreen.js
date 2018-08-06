@@ -104,7 +104,7 @@ class ScrollScreen extends React.Component{
                         checked = {this.state.checked7} 
                         onPress={()=> this.setState({checked7: !this.state.checked7})}/>
                     <Text style = {styles.resultqsofa}> qSOFA ≧２項目     敗血症疑い </Text>
-                        <Text style = {styles.result}> ADROP ≧３項目　qSOFA ≧２項目{"\n"}{"\n"}➡︎  超重症 (ICU 検討) </Text>
+                        <Text style = {styles.result}> ADROP ≧３項目  qSOFA ≧２項目{"\n"}{"\n"}➡︎  超重症 (ICU 検討) </Text>
                 </View>
 
                 
@@ -145,7 +145,7 @@ class ScrollScreen extends React.Component{
                     <View style = {styles.answer}>
                         <Text style = {styles.six}> ☆  1 〜 6 のうち {"\n"} 4項目以上で、非定型肺炎疑い (感度78%, 特異度93%) </Text>
                         <Text style = {styles.five}> ☆   1 〜 5 のうち {"\n"} 3項目以上で、非定型肺炎疑い (感度84%, 特異度87%)</Text>
-                        <Text style = {styles.sankou}>成人市中肺炎診療ガイドライン2007</Text>
+                        
                     </View>
                 </View>
 
@@ -157,7 +157,7 @@ class ScrollScreen extends React.Component{
     const styles = StyleSheet.create({
         adrop: {
             backgroundColor: '#fff',
-            marginTop: 12,
+            marginTop: 30,
             marginBottom: 30,
             height: 50,
             width: 170,
@@ -174,7 +174,7 @@ class ScrollScreen extends React.Component{
         },
         resultadrop: {
             backgroundColor: 'rgb(130,200,143)',
-            marginTop: 30,
+            marginTop: 40,
             marginBottom: 30,
             height: 100,
             width: 190,
@@ -187,7 +187,7 @@ class ScrollScreen extends React.Component{
         },
         qsofa: {
             backgroundColor: '#fff',
-            marginTop: 30,
+            marginTop: 50,
             marginBottom: 30,
             height: 50,
             width: 170,
@@ -206,7 +206,7 @@ class ScrollScreen extends React.Component{
             backgroundColor: 'rgb(130,200,143)',
             color: 'rgb(255,255,255)',
             fontWeight:'bold',
-            marginTop: 35,
+            marginTop: 50,
             height: 60,
             width: 250,
             shadowColor: '#000',
@@ -240,16 +240,16 @@ class ScrollScreen extends React.Component{
         hiteikei: {
             fontSize: 18,
             textAlign: 'center', 
-            marginTop: 14,
+            marginTop: 24,
             marginBottom: 10,
             fontWeight: 'bold',
             color: 'rgb(114,95,70)'
         },
         answer: {
             backgroundColor: 'rgb(130,200,143)',
-            marginTop: 20,
+            marginTop: 33,
             height: 180,
-            width: 380,
+            width: 480,
             padding: 15,
             
         },
@@ -258,6 +258,7 @@ class ScrollScreen extends React.Component{
             fontSize: 14,
             color: 'rgb(255,255,255)',
             marginBottom:10,
+            marginTop:5,
             fontWeight: 'bold',
             padding:4
         },

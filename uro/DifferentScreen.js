@@ -31,19 +31,19 @@ class DifferentScreen extends React.Component{
                  <Text style ={styles.judgetext} >複雑性尿路感染症</Text>
             </TouchableOpacity>
 
-            <View style = {{flexDirection: 'row', paddingBottom: 10}}>
-              <Image style ={{ width:110, height:180, position: 'relative',top:10, left: 0}} source = {require('./image/AdobeStock_45974064.jpeg')}/>
-           　 <Image style ={{ width:110, height:180, position: 'relative',top:10, left: 0}} source = {require('./image/AdobeStock_121777785.jpeg')}/>
-              <Image style ={{ width:110, height:180, position: 'relative',top:10, left: 0}} source = {require('./image/AdobeStock_176741195.jpeg')}/>
+            <View style = {{flexDirection: 'row', paddingBottom: 10 }}>
+              <Image style ={{ width:110, height:140, position: 'relative',top:10, right: 5}} source = {require('./image/AdobeStock_45974064.jpeg')}/>
+           　 <Image style ={{ width:110, height:140, position: 'relative',top:10, left:0}} source = {require('./image/AdobeStock_121777785.jpeg')}/>
+              <Image style ={{ width:110, height:140, position: 'relative',top:10, left: 5}} source = {require('./image/AdobeStock_176741195.jpeg')}/>
             </View> 
             <View style = {{flexDirection: 'row'}}>
-            <Image style ={{ width:110, height:180, position: 'relative',top:10, left: 0}} source = {require('./image/AdobeStock_138909907.jpeg')}/>
-            <Image style ={{ width:110, height:180, position: 'relative',top:10, left: 0}} source = {require('./image/AdobeStock_138952310.jpeg')}/>  
-            <Image style ={{ width:110, height:180, position: 'relative',top:10, left: 0}} source = {require('./image/AdobeStock_138909907.jpeg')}/>
+            <Image style ={{ width:110, height:140, position: 'relative',top:10, right: 5}} source = {require('./image/AdobeStock_138909907.jpeg')}/>
+            <Image style ={{ width:110, height:140, position: 'relative',top:10, left: 0}} source = {require('./image/AdobeStock_138952310.jpeg')}/>  
+            <Image style ={{ width:166, height:140, position: 'relative',top:10, left: 5}} source = {require('./image/AdobeStock_142612067.jpeg')}/>
             </View>
            
-            <TouchableOpacity style={styles. simp}
-                onPress = {() =>{ this.props.navigation.navigate('Simple')}}> 
+            <TouchableOpacity style={styles. comp}
+                onPress = {() =>{ this.props.navigation.navigate('Complex')}}> 
                  <Text style={{fontSize: 20, color: 'blue'}}>治療へ</Text>
             </TouchableOpacity>
 
@@ -61,7 +61,7 @@ class DifferentScreen extends React.Component{
     },
     judge: {
       backgroundColor: '#fff',
-      marginTop: 25,
+      marginTop: 50,
       marginBottom: 15,
       height: 50,
       width: 160,
@@ -82,7 +82,7 @@ class DifferentScreen extends React.Component{
     },
     simp: {
       alignItems: 'center',
-      paddingTop: 30,
+      paddingTop: 40,
       paddingBottom: 25
   
     },
@@ -98,6 +98,12 @@ class DifferentScreen extends React.Component{
         shadowRadius: 1,
         alignSelf: 'center',
         padding: 19,    
+    },
+    comp: {
+      alignItems: 'center',
+      paddingTop: 40,
+      paddingBottom: 50
+  
     },
   })
 

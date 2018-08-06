@@ -40,13 +40,13 @@ static navigationOptions = ({navigation}) =>{
             <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:10, top:0, marginBottom: 5}}>治療の基本)</Text>
             <View style = {styles.example}>
                 <Text style={{fontWeight: 'bold',paddingTop: 8}}>1.   無症候性細菌尿は、治療対象にならない</Text>
-                <Text style={{paddingTop: 2, fontSize: 12}}>     (例外、妊婦、侵襲性の泌尿器科処置、小児など)</Text>
+                <Text style={{paddingTop: 2, fontSize: 12}}>     (例外:   妊婦、侵襲性の泌尿器科処置、小児など)</Text>
                 <Text style={{fontWeight: 'bold', paddingTop: 18}}>2.   尿路感染症は、敗血症の原因のナンバーワン</Text>
                 <Text style={{paddingTop: 2, fontSize: 12}}>      一旦治療を決めれば、断固強力に行う。</Text>
                 <Text style={{fontWeight: 'bold',paddingTop: 18}}>3.  治療期間:  膀胱炎 3日、腎盂腎炎 14日間</Text>
                 <Text style={{paddingTop: 2, fontSize: 12}}>      再発例や14日間の治療で失敗した例は、3-4週間</Text>
-                <Text　style = {{fontSize: 9,textAlign:'right',position: 'relative', top:12, right:8}}> 感染症プラチナマニュアル2017</Text>
-                <Text　style = {{fontSize: 9,textAlign:'right',position: 'relative', top:12, right:8}}> レジデントのための感染症マニュアル第3版</Text>  
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:12, right:8}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:12, right:8}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
 
 
@@ -61,13 +61,13 @@ static navigationOptions = ({navigation}) =>{
                 <Text　style ={styles.esc}>膀胱炎</Text>
                 <View style = {styles.guidline} >
                     <Text style={{fontWeight: 'bold', paddingBottom: 10, paddingTop: 2}}>内服薬: </Text>
-                    <Text style ={{paddingTop: 8}}>バクタ2錠　　　　　  1日2回　3日間</Text>
-                    <Text>ケフレックス500mg   1日3回   7日間</Text>
-                    <Text>オーグメンチン1錠　   1日2回   3日間</Text>
-                    <Text>ホスミシン3g　　　　1回経口投与</Text>
+                    <Text style ={{paddingTop: 8}}>バクタ 2錠　　　　　  1日2回　3日間</Text>
+                    <Text>ケフレックス 500mg   1日3回   7日間</Text>
+                    <Text>オーグメンチン 1錠　   1日2回   3日間</Text>
+                    <Text>ホスミシン 3g　　　　1回経口投与</Text>
                     <Text style ={{paddingTop: 32}}>バクタは妊婦には使用を避ける</Text>
-                    <Text　style = {{fontSize: 9,textAlign:'right',position: 'relative', top:10, right:-10}}> 感染症プラチナマニュアル2017</Text>
-                    <Text style = {{fontSize: 9,textAlign:'right', position: 'relative', top:10, left:10}}> レジデントのための感染症マニュアル第3版</Text> 
+                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:10, right:-10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                    <Text style = {{fontSize: 8,textAlign:'right', position: 'relative', top:10, left:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text> 
       
                 </View>  
                  
@@ -79,8 +79,8 @@ static navigationOptions = ({navigation}) =>{
                     <Text style = {{paddingTop: 1, fontSize:13}}>できるだけ使用しない。温存する！</Text>
                     <Text　style ={{ paddingTop: 28,fontWeight: 'bold', fontSize:15, textDecorationLine: 'underline'}}> 2. 治療が失敗した時</Text>
                     <Text　style ={{paddingTop: 8, fontSize:13}}> 解剖学的な異常や、上部尿路感染症の存在を示唆する</Text>
-                    <Text　style = {{fontSize: 9,textAlign:'right',position: 'relative', top:13, right:10}}> 感染症プラチナマニュアル2017</Text>
-                    <Text　style = {{fontSize: 9,textAlign:'right',position: 'relative', top:13, right:10}}> レジデントのための感染症マニュアル第3版</Text>  
+                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:13, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:13, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
                 </View>
             </View>
     
@@ -96,15 +96,15 @@ static navigationOptions = ({navigation}) =>{
 
             <View style = {styles.guidline}>
                 <Text style={{fontWeight: 'bold'}}>軽症、外来治療:</Text>
-                <Text style ={{ paddingTop: 0}}>バクタ１回2錠　1日2回   14日間</Text>
-                <Text style ={{  paddingTop: 1, fontSize: 12}}>ロセフィン2g外来で投与後、{"\n"}オーグメンチン 375mg + サワシリン 250mg  1日3回  14日間</Text>
+                <Text style ={{ paddingTop: 0, fontSize:13}}>バクタ １回2錠　1日2回   14日間</Text>
+                <Text style ={{  paddingTop: 1, fontSize: 12}}>ロセフィン 2g外来で投与後に{"\n"}オーグメンチン 375mg + サワシリン 250mg  1日3回  14日間</Text>
   
                 <Text style={{fontWeight: 'bold', paddingBottom: 0, paddingTop: 10,}}>中等症以上、入院治療:</Text>
-                <Text style ={{paddingTop: 1}}>セフメタゾール2g　12時間毎</Text>
-                <Text style ={{ paddingTop: 1}}>ロセフィン2g　　　24時間毎</Text>
+                <Text style ={{paddingTop: 1, fontSize:13}}>セフメタゾール 2g　12時間毎</Text>
+                <Text style ={{ paddingTop: 1, fontSize:13}}>ロセフィン 2g　　　24時間毎</Text>
                 <Text style={{fontWeight: 'bold', paddingTop: 10,}}>ショック:</Text>
-                <Text >ゲンタシン5mg/kg  1日1回 上記治療に追加</Text>
-                <Text style = {{fontSize: 9, textAlign:'right', position: 'relative', top:4, left:10}}> 感染症プラチナマニュアル2017</Text> 
+                <Text style ={{ paddingTop: 1, fontSize:13}}>メロペン 1g  8時間毎</Text>
+                <Text style = {{fontSize: 8, textAlign:'right', position: 'relative', top:4, left:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text> 
             </View>
             <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:10, top:0, marginBottom: 5}}>ポイント)</Text>
             <View style = {styles.example}>
@@ -112,8 +112,8 @@ static navigationOptions = ({navigation}) =>{
                 <Text　style ={{paddingTop: 8, fontSize:13}}> 起因菌の感受性を確認するとともに、膿瘍の合併を考える</Text>
                 <Text style={{fontWeight: 'bold', fontSize:15,textDecorationLine: 'underline', marginTop:20}}> 2. ESBL産生菌を疑うとき</Text>
                 <Text　style ={{paddingTop: 8, fontSize:13}}>軽症例では、セフメタゾール{"\n"}重症例では、カルバペネム系で治療する</Text>
-                <Text　style = {{fontSize: 9,textAlign:'right',position: 'relative', top:30, right:10}}> 感染症プラチナマニュアル2017</Text>
-                <Text　style = {{fontSize: 9, textAlign:'right',position: 'relative', top:30, right:10}}> レジデントのための感染症マニュアル第3版</Text>  
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:30, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8, textAlign:'right',position: 'relative', top:30, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
         </View>  
 

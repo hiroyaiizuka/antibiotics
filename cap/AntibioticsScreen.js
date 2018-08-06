@@ -25,22 +25,22 @@ class AntibioticsScreen extends React.Component{
                         <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}> βラクタマーゼ阻害配合ペニシリン系薬 </Text>
                         <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}> マクロライド系薬 </Text>
                         <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}> レスピラトリーキノロン</Text>
-                        <Text style={{fontWeight: 'bold', marginTop: 12, paddingBottom: 4,color: 'rgb(255,255,255)', fontWeight: 'bold'}}> 注射薬:</Text>
+                        <Text style={{fontWeight: 'bold', marginTop: 18, paddingBottom: 4,color: 'rgb(255,255,255)', fontWeight: 'bold'}}> 注射薬:</Text>
                         <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}> セフトリアキソン</Text>
                         <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}> アジスロマイシン</Text>
                         <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}> レボフロキサシン (結核をマスクする、注意！)</Text>
-                        <Text style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:8, right:-9}}> 成人市中肺炎診療ガイドライン2017</Text> 
+                        <Text style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:8, right:-9}}> 成人市中肺炎診療ガイドライン2017</Text> 
                     </View>
                     <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:-170, top:0, marginBottom: 5}}>ex)</Text>
                     <View style = {styles.example}>
                         <Text style={{fontWeight: 'bold', color: 'rgb(255,255,255)'}}>細菌性肺炎を疑う場合:</Text>
-                        <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4, fontSize:13}}>オーグメンチン 375mg + サワシリン 250mg  1日3回{"\n"}(± ジスロマック2000mg 1回)</Text>
-                        <Text style={{fontWeight: 'bold', marginTop: 10, color: 'rgb(255,255,255)'}}>非定型肺炎を疑う場合:</Text>
+                        <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4, fontSize:13}}>オーグメンチン 375mg + サワシリン 250mg  1日3回</Text>
+                        <Text style={{fontWeight: 'bold', marginTop: 14, color: 'rgb(255,255,255)'}}>非定型肺炎を疑う場合:</Text>
                         <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4, fontSize:13}}>ジスロマック2000mg 1回{"\n"}または、ビブラマイシン100mg を1日2回 </Text>
-                        <Text style={{fontWeight: 'bold', marginTop: 10, color: 'rgb(255,255,255)'}}>免疫不全、基礎疾患あり:</Text>
+                        <Text style={{fontWeight: 'bold', marginTop: 15, color: 'rgb(255,255,255)'}}>免疫不全、基礎疾患あり:</Text>
                         <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4, fontSize:13}}>クラビット500mg 1日1回{"\n"}結核をマスクする！使用前に要検討！</Text>
-                        <Text　style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:5, right:10}}> 感染症プラチナマニュアル2017</Text>
-                        <Text　style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:5, right:10}}> レジデントのための感染症マニュアル第3版</Text>  
+                        <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:28, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                        <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:28, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
                     </View>
 
                 </View>
@@ -57,12 +57,12 @@ class AntibioticsScreen extends React.Component{
                         <Text  style={{fontWeight: 'bold', paddingBottom: 4, color: 'rgb(255,255,255)',}} > 注射薬:</Text>
                         <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}> スルバクタム・アンピシン</Text>
                         <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}> セフトリアキソン</Text>
-                        <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}> レボフロキサシン (結核をマスクするので注意！)</Text>
-                        <Text style={{fontWeight: 'bold',paddingTop:10, paddingBottom: 4, color: 'rgb(255,255,255)',}}> 非定型肺炎が疑われる場合:</Text>
+                        <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}> レボフロキサシン (結核をマスクする、注意！)</Text>
+                        <Text style={{fontWeight: 'bold',paddingTop:16, paddingBottom: 4, color: 'rgb(255,255,255)',}}> 非定型肺炎が疑われる場合:</Text>
                         <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}> ミノサイクリン</Text>
                         <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}> アジスロマイシン</Text>
-                        <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}> レボフロキサシン (結核をマスクするので注意！)</Text>
-                        <Text style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right', position: 'relative', top:10, left:10}}> 成人市中肺炎診療ガイドライン2017</Text> 
+                        <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}> レボフロキサシン (結核をマスクする、注意！)</Text>
+                        <Text style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right', position: 'relative', top:10, left:10}}> 成人市中肺炎診療ガイドライン2017</Text> 
                     </View>
 
                     <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:-170, top:0, marginBottom: 5}}>ex)</Text>
@@ -70,12 +70,12 @@ class AntibioticsScreen extends React.Component{
                         <Text style={{fontWeight: 'bold', color: 'rgb(255,255,255)'}}>細菌性肺炎を疑う場合:</Text>
                         <Text style ={{ color: 'rgb(255,255,255)', paddingTop:2, fontSize:13}}>ロセフィン2g/日</Text>
                         <Text style ={{ color: 'rgb(255,255,255)', position: 'relative', top:3, right:4, fontSize:13}}>(± ジスロマック500mg/日  or  ミノマイシン100mg1日2回)</Text>
-                        <Text style={{fontWeight: 'bold', marginTop: 15, color: 'rgb(255,255,255)'}}>誤嚥性肺炎を疑う場合:</Text>
+                        <Text style={{fontWeight: 'bold', marginTop: 18, color: 'rgb(255,255,255)'}}>誤嚥性肺炎を疑う場合:</Text>
                         <Text style ={{ color: 'rgb(255,255,255)', paddingTop:2, fontSize:13}}>ユナシン 1.5-3g  6時間毎 </Text>
-                        <Text style={{fontWeight: 'bold', marginTop: 12, color: 'rgb(255,255,255)'}}>緑膿菌の関与が疑われる場合:</Text>
+                        <Text style={{fontWeight: 'bold', marginTop: 15, color: 'rgb(255,255,255)'}}>緑膿菌の関与が疑われる場合:</Text>
                         <Text style ={{ color: 'rgb(255,255,255)', paddingTop:2, fontSize:13}}>ゾシン4.5g  6時間毎  or  マキシピーム2g  6時間毎</Text>
-                        <Text　style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:31, right:10}}> 感染症プラチナマニュアル2017</Text>
-                        <Text　style={{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:29, right:10}}> レジデントのための感染症マニュアル第3版</Text>  
+                        <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:42, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                        <Text　style={{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:42, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
                     </View>
 
  
@@ -98,7 +98,7 @@ class AntibioticsScreen extends React.Component{
                         <Text style ={{ color: 'rgb(255,255,255)',paddingBottom: 4, fontSize:13}}>D 法:    A or B 法 + レボフロキサシン</Text>
                         <Text style ={{ color: 'rgb(255,255,255)',paddingBottom: 4, fontSize:13}}>E 法:    A or B or C or D + 抗MRSA薬</Text>
                         <Text style ={{ color: 'rgb(255,255,255)',paddingBottom: 4, fontSize:13}}>※ B 法は、緑膿菌を考慮しない場合</Text>
-                        <Text style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right', position: 'relative', top:17, left:10}}> 成人市中肺炎診療ガイドライン2017</Text> 
+                        <Text style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right', position: 'relative', top:20, left:10}}> 成人市中肺炎診療ガイドライン2017</Text> 
                     </View>
 
                     <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:-170, top:0, marginBottom: 5}}>ex)</Text>
@@ -107,12 +107,12 @@ class AntibioticsScreen extends React.Component{
                         <Text style ={{ color: 'rgb(255,255,255)',paddingTop:1, fontSize:13}}>ロセフィン2g/日  or  ユナシン1.5-3g  6時間毎</Text>
                         <Text style ={{ color: 'rgb(255,255,255)', position: 'relative', top:2, right:4, fontSize:13}}>(± ジスロマック500mg/日  or  ミノマイシン100mg1日2回)</Text>
                         <Text style={{fontWeight: 'bold', marginTop: 20, color: 'rgb(255,255,255)'}}>緑膿菌感染を疑う場合:</Text>
-                        <Text style ={{ color: 'rgb(255,255,255)',paddingTop:1, fontSize:13}}>ゾシン4.5g  6時間毎  or  マキシピーム2g  8時間毎</Text>
-                        <Text style ={{ color: 'rgb(255,255,255)', position: 'relative', top:2, fontSize:13}}>(or  メロペン1g  8時間毎) ± クラビット500mg/日</Text>
+                        <Text style ={{ color: 'rgb(255,255,255)',paddingTop:1, fontSize:13}}>ゾシン4.5g  6時間毎   or   メロペン1g  8時間毎</Text>
+                        <Text style ={{ color: 'rgb(255,255,255)', position: 'relative', top:2, fontSize:13}}>(±  クラビット500mg/日)</Text>
                         <Text style={{fontWeight: 'bold', marginTop: 20, color: 'rgb(255,255,255)'}}>インフルエンザ後の肺炎:</Text>
                         <Text style ={{ color: 'rgb(255,255,255)',paddingTop:1, fontSize:13}}>バンコマイシン1g  12時間毎    上記へ追加を検討する</Text>
-                        <Text　style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:8, right:10}}> 感染症プラチナマニュアル2017</Text>
-                        <Text　style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:8, right:10}}> レジデントのための感染症マニュアル第3版</Text>  
+                        <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:22, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                        <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:22, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
                     </View>
                 </View>
             </ScrollView>
@@ -122,8 +122,8 @@ class AntibioticsScreen extends React.Component{
     const styles = StyleSheet.create({
         kei: {
             backgroundColor: '#fff',
-            marginTop: 40,
-            marginBottom: 1,
+            marginTop: 30,
+            marginBottom: 10,
             height: 50,
             width: 170,
             borderRadius: 4,
@@ -159,8 +159,8 @@ class AntibioticsScreen extends React.Component{
         },
         tyu: {
             backgroundColor: '#fff',
-            marginTop: 40,
-            marginBottom: 1,
+            marginTop: 30,
+            marginBottom: 10,
             height: 50,
             width: 170,
             borderRadius: 4,

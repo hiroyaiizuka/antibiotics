@@ -36,8 +36,8 @@ static navigationOptions = ({navigation}) =>{
                 <Text style={{ paddingBottom: 4,paddingTop:16,fontSize:13}} >･グラム染色による、抗菌薬選択が望ましい</Text> 
                 <Text style={{ paddingTop:8,fontSize:13}} >･黄色ブドウ球菌が検出された場合</Text> 
                 <Text style={{ fontSize:13}} >  感染性心内膜炎などの血流感染や、腎･前立腺膿瘍を疑う</Text>
-                <Text　style = {{fontSize: 9,textAlign:'right',position: 'relative', top:20, right:-6}}> 感染症プラチナマニュアル2017</Text>
-                <Text　style = {{fontSize: 9,textAlign:'right',position: 'relative', top:20, right:-6}}> レジデントのための感染症マニュアル第3版</Text>  
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:20, right:-6}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:20, right:-6}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
 
             <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:10, top:0, marginBottom: 5}}>治療の基本)</Text>
@@ -48,8 +48,8 @@ static navigationOptions = ({navigation}) =>{
                 <Text style={{paddingTop: 2, fontSize: 12}}>      前立腺腫大、圧痛や熱感を確認</Text>
                 <Text style={{fontWeight: 'bold',paddingTop: 18}}>3.   治療期間:  膀胱炎、腎盂腎炎 7-14日間</Text>
                 <Text style={{paddingTop: 2, fontSize: 12}}>       再発例や泌尿器科的異常がある場合、6週間</Text>
-                <Text　style = {{fontSize: 9,textAlign:'right',position: 'relative', top:12, right:8}}> 感染症プラチナマニュアル2017</Text>
-                <Text　style = {{fontSize: 9,textAlign:'right',position: 'relative', top:12, right:8}}> レジデントのための感染症マニュアル第3版</Text>  
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:12, right:8}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:12, right:8}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
 
 
@@ -66,10 +66,9 @@ static navigationOptions = ({navigation}) =>{
                 <View style = {styles.guidline2} >
                     <Text style={{fontWeight: 'bold', paddingBottom: 2}}>内服薬: </Text>
                     <Text>バクタ 2錠　　　　　  1日2回　7-14日間</Text>
-                    <Text>クラビット500mg　   1日1回   7日間</Text>
                     <Text  style ={{fontSize: 12, paddingTop:2}}>オーグメンチン 375mg + サワシリン 250mg  1日3回  14日間</Text>
                  
-                    <Text　style = {{fontSize: 9,textAlign:'right',position: 'relative', top:17, right:-10}}> JAID/JSC感染症治療ガイドライン2015</Text>
+                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:17, right:-10}}> JAID/JSC感染症治療ガイドライン2015</Text>
                   
       
                 </View>  
@@ -83,13 +82,13 @@ static navigationOptions = ({navigation}) =>{
                     <Text>ゾシン 　　　 4.5g  6時間毎 </Text>
                     <Text>マキシピーム  2g 　 6時間毎 </Text>
                     <Text style={{fontWeight: 'bold',paddingTop: 10}}>重症: </Text>
-                    <Text style = {{ fontSize:13}}>ゲンタシン  5mg/kg/日</Text>
+                    <Text>メロペン1g  8時間毎</Text>
                     <Text>クラビット 500mg/日  　上記に追加を検討する</Text>
                     <Text　style ={{paddingTop: 20, fontSize:13, fontWeight: 'bold' }}>グラム染色で、グラム陽性球菌(+):</Text>
                     <Text　style ={{paddingTop: 2, fontSize:13}}>Enterococcus  facium を考慮し</Text>
                     <Text　style ={{fontSize:13}}>バンコマイシン 1g 12時間毎　を追加する</Text>
-                    <Text　style = {{fontSize: 9,textAlign:'right',position: 'relative', top:4, right:10}}> 感染症プラチナマニュアル2017</Text>
-                    <Text　style = {{fontSize: 9,textAlign:'right',position: 'relative', top:4, right:10}}> レジデントのための感染症マニュアル第3版</Text>  
+                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:4, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:4, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
                 </View>
             </View>
     
@@ -113,7 +112,7 @@ static navigationOptions = ({navigation}) =>{
                 <Text style={{fontWeight: 'bold', paddingTop: 10,}}>重症で腸球菌の関与が疑われる場合:</Text>
                 <Text style ={{fontSize:13, paddingTop: 2}}>ゲンタシン    5mg/kg/日 </Text>
                 <Text style ={{fontSize:13}}>アンピシリン 2g 4-6時間毎　上記治療に追加{"\n"}(培養結果によっては、バンコマイシンに)</Text>
-                <Text style = {{fontSize: 9, textAlign:'right', position: 'relative', top:8, left:10}}> 感染症プラチナマニュアル2017</Text> 
+                <Text style = {{fontSize: 8, textAlign:'right', position: 'relative', top:8, left:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text> 
             </View>
             <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:10, top:0, marginBottom: 5}}>ポイント)</Text>
             <View style = {styles.example}>
@@ -121,8 +120,8 @@ static navigationOptions = ({navigation}) =>{
                 <Text　style ={{paddingTop: 8, fontSize:13}}> ST合剤、ニューキノロン系は前立腺への移行性が良い。{"\n"} 急性の場合、激しい炎症のため、βラクタム系も有効。</Text>
                 <Text style={{fontWeight: 'bold', fontSize:15,textDecorationLine: 'underline', marginTop:20}}> 2. 治療期間：3週間以上 (3-6週間)</Text>
                 <Text　style ={{paddingTop: 8, fontSize:13}}>十分な治療にもかかわらず感染を除去できなかったり{"\n"}膿瘍を形成したりすることがある</Text>
-                <Text　style = {{fontSize: 9,textAlign:'right',position: 'relative', top:20, right:10}}> 感染症プラチナマニュアル2017</Text>
-                <Text　style = {{fontSize: 9, textAlign:'right',position: 'relative', top:20, right:10}}> レジデントのための感染症マニュアル第3版</Text>  
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:20, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8, textAlign:'right',position: 'relative', top:20, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
         </View>  
 
@@ -186,7 +185,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#ffdead',
         marginTop: 13,
         marginBottom: 17,
-        height: 120,
+        height: 100,
         width: 374,
         shadowColor: '#000',
         shadowOffset: {width: 0, height: 0.5},
@@ -197,7 +196,7 @@ const styles = StyleSheet.create({
     },
     example: {
         backgroundColor : '#b0e0e6',
-        height: 300,
+        height: 320,
         width: 374,
         paddingLeft:13,
         paddingTop:20

@@ -25,7 +25,7 @@ static navigationOptions = ({navigation}) =>{
 
             <View >
                 <Text style ={styles.esc}> 重症度が低い{"\n"}耐性菌リスク(-)</Text>
-                <Text style={{fontWeight: 'bold', paddingBottom: 4, color: 'rgb(25,25,255)',position: 'absolute', top:110,left:10}}> ⤴︎ escalation 治療</Text>
+                <Text style={{fontWeight: 'bold', paddingBottom: 4, color: 'rgb(25,25,255)',position: 'absolute', top:110,left:12}}> ⤴︎ escalation 治療</Text>
             </View> 
             
             <View style = {styles.guidline } >
@@ -35,17 +35,17 @@ static navigationOptions = ({navigation}) =>{
                 <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}>スルバクタム･アンピシリン{"\n"}セフトリアキソン (嫌気性菌感染疑いには、使用しない)</Text>
                 <Text style={{fontWeight: 'bold', paddingTop: 20, paddingBottom: 4, color: 'rgb(255,255,255)',}}>非定型肺炎が疑われる場合:</Text>
                 <Text style ={{ color: 'rgb(255,255,255)', fontSize:13}}>レボフロキサシン(結核をマスク！)</Text>
-                <Text style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right', position: 'relative', top:10, left:10}}> 成人市中肺炎診療ガイドライン2017</Text> 
+                <Text style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right', position: 'relative', top:14, left:10}}> 成人市中肺炎診療ガイドライン2017</Text> 
             </View>
 
-            <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:10, top:0, marginBottom: 5}}>ex)</Text>
+            <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:16, top:0, marginBottom: 5}}>ex)</Text>
             <View style = {styles.example}>
                 <Text style={{fontWeight: 'bold', color: 'rgb(255,255,255)'}}>内服:</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4, fontSize:13}}>オーグメンチン 375mg + サワシリン 250mg  1日3回{"\n"}(± ジスロマック2000mg 1回)</Text>
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4, fontSize:13}}>オーグメンチン 375mg + サワシリン 250mg  1日3回{"\n"}(± ジスロマック 2000mg 1回)</Text>
                 <Text style={{fontWeight: 'bold', marginTop: 10, color: 'rgb(255,255,255)'}}>注射:</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4, fontSize:13}}>ロセフィン2g/日  or  ユナシン 1.5-3g  6時間毎 </Text>
-                <Text　style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:14, right:10}}> 感染症プラチナマニュアル2017</Text>
-                <Text　style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:14, right:10}}> レジデントのための感染症マニュアル第3版</Text>  
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4, fontSize:13}}>ロセフィン 2g/日  or  ユナシン 1.5-3g  6時間毎 </Text>
+                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:40, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:40, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
 
 
@@ -58,24 +58,24 @@ static navigationOptions = ({navigation}) =>{
                      flex: 1,
                 }}>
                 <Text　style ={styles.esc}> 重症  or{"\n"}  耐性菌リスク(+)</Text>
-                <Text style={{fontWeight: 'bold', paddingBottom: 4, color: 'rgb(25,25,255)',position: 'absolute', top:110,left:10}}> ⤵︎ descalation  単剤治療</Text>
+                <Text style={{fontWeight: 'bold', paddingBottom: 4, color: 'rgb(25,25,255)',position: 'absolute', top:110,left:12}}> ⤵︎ de-escalation  単剤治療</Text>
             
 
             <View style = {styles.guidline} >
                 <Text style={{fontWeight: 'bold', paddingBottom: 10, paddingTop: 2, color: 'rgb(255,255,255)',}}>注射薬(単剤投与):</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 8}}>第4世代セフェム系薬  or  ニューキノロン系薬{"\n"}(→ 嫌気性菌感染を疑う際は、使用を避ける)</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:17}}>タゾバクタム･ピペラシン{"\n"}カルバペネム系 </Text>
-                <Text style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right', position: 'relative', top:76, left:10}}> 成人市中肺炎診療ガイドライン2017</Text> 
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 8,fontSize:13}}>第4世代セフェム系薬  or  ニューキノロン系薬{"\n"}(→ 嫌気性菌感染疑いには、使用しない)</Text>
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:17,fontSize:13}}>タゾバクタム･ピペラシン{"\n"}{"\n"}カルバペネム系 </Text>
+                <Text style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right', position: 'relative', top:64, left:10}}> 成人市中肺炎診療ガイドライン2017</Text> 
             </View>  
 
-            <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:10, top:0, marginBottom: 5}}>ex)</Text>
+            <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:16, top:0, marginBottom: 5}}>ex)</Text>
             <View style = {styles.example}>
                 <Text style={{fontWeight: 'bold', marginTop: 10, color: 'rgb(255,255,255)'}}>注射:</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:15}}>ゾシン4.5g  6時間毎</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4}}>マキシピーム2g  6時間毎  (嫌気性菌感染を疑う際は避ける)</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4}}>メロペン1g  8時間毎</Text>
-                <Text　style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:14, right:10}}> 感染症プラチナマニュアル2017</Text>
-                <Text　style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:14, right:10}}> レジデントのための感染症マニュアル第3版</Text>  
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:15,fontSize:13}}>ゾシン 4.5g  6時間毎</Text>
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4,fontSize:13}}>マキシピーム 2g  6時間毎  (嫌気性菌感染には × )</Text>
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4,fontSize:13}}>メロペン 1g  8時間毎</Text>
+                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:42, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:42, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
 
          </View>
@@ -84,31 +84,31 @@ static navigationOptions = ({navigation}) =>{
                 backgroundColor: '#fff',
                 flex: 1,
                 }}>
-           <Text　style ={styles.esc}> 重症  and{"\n"}  耐性菌リスク(+)</Text>
-           <Text style={{fontWeight: 'bold', paddingBottom: 4, color: 'rgb(25,25,255)',position: 'absolute', top:110,left:10}}> ⤵︎ descalation  多剤治療</Text>
+           <Text　style ={styles.esc}> 重症  &{"\n"}  耐性菌リスク(+)</Text>
+           <Text style={{fontWeight: 'bold', paddingBottom: 4, color: 'rgb(25,25,255)',position: 'absolute', top:110,left:12}}> ⤵︎ de-escalation  多剤治療</Text>
            
 
             <View style = {styles.guidline}>
                 <Text style={{fontWeight: 'bold', paddingBottom: 10, paddingTop: 2, color: 'rgb(255,255,255)',}}>注射薬(2剤併用投与):</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1}}>タゾバクタム・ピペラシン</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1}}>カルバペネム系</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1}}>第4世代セフェム系薬  (嫌気性菌感染を疑う際は避ける)</Text>
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1,fontSize:13}}>タゾバクタム・ピペラシン</Text>
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1,fontSize:13}}>カルバペネム系</Text>
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1,fontSize:13}}>第4世代セフェム系薬  (嫌気性菌感染疑いには、使用しない)</Text>
              
                 <Text style = {{color: 'rgb(255,255,255)', paddingLeft: 50, paddingTop:5, paddingBottom: 5, fontWeight: 'bold'}}>+</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1}}>アミノグリコシド系薬</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1}}>ニューキノロン系薬</Text>
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1,fontSize:13}}>アミノグリコシド系薬</Text>
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1,fontSize:13}}>ニューキノロン系薬</Text>
                 <Text style={{fontWeight: 'bold', paddingTop: 16, color: 'rgb(255,255,255)',}}>MRSA感染を疑う場合:　</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 1}}>抗MRSA薬</Text>
-                <Text style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right', position: 'relative', top:8, left:10}}> 成人市中肺炎診療ガイドライン2017</Text> 
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop: 6,fontSize:13}}>抗MRSA薬  (ダプトマイシン、アルべカシンは使用不可)</Text>
+                <Text style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right', position: 'relative', top:8, left:10}}> 成人市中肺炎診療ガイドライン2017</Text> 
             </View>
-            <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:10, top:0, marginBottom: 5}}>ex)</Text>
+            <Text style={{fontWeight: 'bold', color: 'rgb(114,95,70)', position: 'relative', left:16, top:0, marginBottom: 5}}>ex)</Text>
             <View style = {styles.example}>
                 <Text style={{fontWeight: 'bold', marginTop: 10, color: 'rgb(255,255,255)'}}>注射:</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:17}}>ゾシン4.5g  6時間毎</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4}}> + クラビット500mg/日 or  ゲンタシン 5mg/kg/日</Text>
-                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4}}>(± バンコマイシン1g  12時間毎)</Text>
-                <Text　style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:15, right:10}}> 感染症プラチナマニュアル2017</Text>
-                <Text　style = {{fontSize: 9, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:15, right:10}}> レジデントのための感染症マニュアル第3版</Text>  
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:17,fontSize:13}}>ゾシン 4.5g  6時間毎</Text>
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4,fontSize:13}}> + クラビット500mg/日 or  ゲンタシン 5mg/kg/日</Text>
+                <Text style ={{ color: 'rgb(255,255,255)', paddingTop:4,fontSize:13}}>(± バンコマイシン 1g  12時間毎)</Text>
+                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:40, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8, color: 'rgb(255,255,255)',textAlign:'right',position: 'relative', top:40, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
         </View>  
 
@@ -153,9 +153,10 @@ const styles = StyleSheet.create({
     example: {
         backgroundColor : 'rgb(114,95,70)',
         height: 255,
-        width: 374,
-        paddingLeft:13,
-        paddingTop:20
+        width: 378,
+        paddingLeft:19,
+        paddingTop:20,
+        alignSelf: 'center',
     },
     
 });

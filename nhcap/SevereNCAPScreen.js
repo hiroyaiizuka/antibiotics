@@ -96,7 +96,7 @@ class SevereNCAPScreen extends React.Component{
                     checked = {this.state.checked7} 
                     onPress={()=> this.setState({checked7: !this.state.checked7})}/>
                 <Text style = {styles.resultqsofa}> q-SOFA ≧２項目     敗血症疑い </Text>
-                    <Text style = {styles.result}> A-DROP ≧３項目　q-SOFA ≧２項目{"\n"}{"\n"}→超重症 (ICUへ) </Text>
+                    <Text style = {styles.result}> A-DROP ≧３項目  q-SOFA ≧２項目{"\n"}{"\n"}→超重症 (ICUへ) </Text>
             </View>
 
             
@@ -140,7 +140,7 @@ class SevereNCAPScreen extends React.Component{
 const styles = StyleSheet.create({
     adrop: {
         backgroundColor: '#fff',
-        marginTop: 12,
+        marginTop: 30,
         marginBottom: 30,
         height: 50,
         width: 170,
@@ -157,7 +157,8 @@ const styles = StyleSheet.create({
     },
     resultadrop: {
         backgroundColor: 'rgb(130,200,143)',
-        margin: 28,
+        marginTop: 40,
+        marginBottom: 30,
         height: 100,
         width: 190,
         shadowColor: '#000',
@@ -172,7 +173,7 @@ const styles = StyleSheet.create({
     },
     qsofa: {
         backgroundColor: '#fff',
-        marginTop: 30,
+        marginTop: 50,
         marginBottom: 30,
         height: 50,
         width: 170,
@@ -191,7 +192,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgb(130,200,143)',
         color: 'rgb(255,255,255)',
         fontWeight:'bold',
-        marginTop: 35,
+        marginTop: 50,
         height: 60,
         width: 250,
         shadowColor: '#000',
@@ -265,7 +266,7 @@ const styles = StyleSheet.create({
     },
     taisei: {
             backgroundColor: '#fff',
-            marginTop: 19,
+            marginTop: 38,
             marginBottom: 30,
             height: 50,
             width: 170,
@@ -284,7 +285,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgb(130,200,143)',
         color: 'rgb(255,255,255)',
         fontWeight:'bold',
-        marginTop: 40,
+        marginTop: 60,
         height: 60,
         width: 250,
         shadowColor: '#000',
@@ -297,12 +298,11 @@ const styles = StyleSheet.create({
         fontSize: 16
     },
     sankou2: {
-        fontSize: 12,
+        fontSize: 11,
         color: '#808080',
-        textAlign: 'right',
+        textAlign: 'center',
         fontWeight: 'bold',
-        paddingRight:25,
-        paddingTop: 35
+        paddingTop: 45
 
     },
     

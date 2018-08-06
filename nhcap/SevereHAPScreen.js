@@ -135,18 +135,9 @@ class SevereHAPScreen extends React.Component{
 }
     const styles = StyleSheet.create({
     
-        result: {
-            marginTop: 20,
-            backgroundColor: '#808080',
-            alignItems: 'center',
-            padding:14,
-            borderRadius: 4,
-            width: 250,
-            margin: 30
-        },
         iroad: {
             backgroundColor: '#fff',
-            marginTop: 11,
+            marginTop: 30,
             marginBottom: 30,
             height: 50,
             width: 170,
@@ -163,7 +154,8 @@ class SevereHAPScreen extends React.Component{
         },
         iroadresult: {
             backgroundColor: 'rgb(130,200,143)',
-            margin: 37,
+            marginTop: 40,
+            marginBottom: 30,
             height: 89,
             width: 190,
             shadowColor: '#000',
@@ -175,7 +167,7 @@ class SevereHAPScreen extends React.Component{
         },  
         qsofa: {
             backgroundColor: '#fff',
-            marginTop: 30,
+            marginTop: 50,
             marginBottom: 30,
             height: 50,
             width: 170,
@@ -194,7 +186,7 @@ class SevereHAPScreen extends React.Component{
             backgroundColor: 'rgb(130,200,143)',
             color: 'rgb(255,255,255)',
             fontWeight:'bold',
-            marginTop: 35,
+            marginTop: 50,
             height: 60,
             width: 250,
             shadowColor: '#000',
@@ -226,7 +218,7 @@ class SevereHAPScreen extends React.Component{
         },
         taisei: {
             backgroundColor: '#fff',
-            marginTop: 9,
+            marginTop: 30,
             marginBottom: 30,
             height: 50,
             width: 170,
@@ -245,7 +237,7 @@ class SevereHAPScreen extends React.Component{
         backgroundColor: 'rgb(130,200,143)',
         color: 'rgb(255,255,255)',
         fontWeight:'bold',
-        marginTop: 40,
+        marginTop: 60,
         height: 60,
         width: 250,
         shadowColor: '#000',
@@ -258,12 +250,11 @@ class SevereHAPScreen extends React.Component{
         fontSize: 16
     },
     sankou: {
-        fontSize: 12,
+        fontSize: 11,
         color: '#808080',
-        textAlign: 'right',
+        textAlign: 'center',
         fontWeight: 'bold',
-        paddingRight:25,
-        paddingTop: 35
+        paddingTop: 45
 
     },
     

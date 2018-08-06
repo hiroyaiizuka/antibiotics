@@ -5,10 +5,8 @@ import HomeScreen from './HomeScreen';
 import AntibioticsScreen from './cap/AntibioticsScreen';
 import DoseScreen from './cap/DoseScreen';
 import SevereNCAPScreen from './nhcap/SevereNCAPScreen';
-import BackgroundScreen from './nhcap/BackgroundScreen';
 import SevereHAPScreen from './nhcap/SevereHAPScreen';
 import EscalationScreen from './nhcap/EscalationScreen';
-import Background2Screen from './nhcap/Background2Screen';
 import BeakerScreen from './cap/BeakerScreen';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Beaker2Screen from './cap/Beaker2Screen';
@@ -28,8 +26,6 @@ const App = createStackNavigator({
   Home:           {screen: HomeScreen},
   Antibiotics1:   {screen: AntibioticsScreen},
   Dose:           {screen: DoseScreen},
-  Back:           {screen: BackgroundScreen},
-  Back2:          {screen: Background2Screen},
   SevereN:        {screen: SevereNCAPScreen},
   SevereH:        {screen: SevereHAPScreen},  
   Escalate:       {screen: EscalationScreen},

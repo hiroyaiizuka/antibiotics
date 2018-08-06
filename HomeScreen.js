@@ -24,11 +24,11 @@ class HomeScreen extends React.Component{
                         <Text style={{color: 'rgb(52,62,62)', paddingTop: 20}}>・市中肺炎</Text>
                     </TouchableOpacity>
             
-                    <TouchableOpacity style = {{paddingLeft:135, paddingBottom: 25}} onPress = {() =>{ this.props.navigation.navigate('Back')}}>
+                    <TouchableOpacity style = {{paddingLeft:135, paddingBottom: 25}} onPress = {() =>{ this.props.navigation.navigate('SevereN')}}>
                         <Text style={{color: 'rgb(52,62,62)'}}>・医療介護関連肺炎{"\n"}   (NHCAP)</Text>
                     </TouchableOpacity>
 
-                    <TouchableOpacity style = {{paddingLeft:135, paddingBottom: 10}} onPress = {() =>{ this.props.navigation.navigate('Back2')}}>
+                    <TouchableOpacity style = {{paddingLeft:135, paddingBottom: 10}} onPress = {() =>{ this.props.navigation.navigate('SevereH')}}>
                         <Text style={{color: 'rgb(52,62,62)'}}>・院内肺炎{"\n"}   (HAP)</Text>
                     </TouchableOpacity>
 
