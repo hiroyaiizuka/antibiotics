@@ -1330,6 +1330,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medical-leap.antibioticsoon";
 				PRODUCT_NAME = haien;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1352,6 +1353,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medical-leap.antibioticsoon";
 				PRODUCT_NAME = haien;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

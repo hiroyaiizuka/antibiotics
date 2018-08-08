@@ -87,8 +87,8 @@ static navigationOptions = ({navigation}) =>{
                     <Text　style ={{paddingTop: 20, fontSize:13, fontWeight: 'bold' }}>グラム染色で、グラム陽性球菌(+):</Text>
                     <Text　style ={{paddingTop: 2, fontSize:13}}>Enterococcus  facium を考慮し</Text>
                     <Text　style ={{fontSize:13}}>バンコマイシン 1g 12時間毎　を追加する</Text>
-                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:16, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
-                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:16, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
+                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:17, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                    <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:17, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
                 </View>
             </View>
     
@@ -120,8 +120,8 @@ static navigationOptions = ({navigation}) =>{
                 <Text　style ={{paddingTop: 8, fontSize:13}}> ST合剤、ニューキノロン系は前立腺への移行性が良い。{"\n"} 急性の場合、激しい炎症のため、βラクタム系も有効。</Text>
                 <Text style={{fontWeight: 'bold', fontSize:15,textDecorationLine: 'underline', marginTop:20}}>2.  治療期間：3週間以上 (3-6週間)</Text>
                 <Text　style ={{paddingTop: 8, fontSize:13}}> 十分な治療にもかかわらず感染を除去できなかったり{"\n"} 膿瘍を形成したりすることがある</Text>
-                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:40, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
-                <Text　style = {{fontSize: 8, textAlign:'right',position: 'relative', top:40, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
+                <Text　style = {{fontSize: 8,textAlign:'right',position: 'relative', top:32, right:10}}> 感染症プラチナマニュアル2018,  MEDSi</Text>
+                <Text　style = {{fontSize: 8, textAlign:'right',position: 'relative', top:32, right:10}}> レジデントのための感染症マニュアル第3版,  医学書院</Text>  
             </View>
         </View>  
 
@@ -196,7 +196,7 @@ const styles = StyleSheet.create({
     },
     example: {
         backgroundColor : '#b0e0e6',
-        height: 320,
+        height: 400,
         width: 374,
         paddingLeft:19,
         paddingTop:20,
